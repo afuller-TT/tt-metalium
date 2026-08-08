@@ -1,1 +1,1 @@
-{"branch":"silencer/deprecated-int32-to-float-signbit","pr":1,"workflow":"sanity-tests","run_id":"31167016127","dispatched":"2026-08-07","last_state":"queued","nonterminal_reported":true,"reported":false}
+{"branch": "silencer/deprecated-int32-to-float-signbit", "pr": 1, "workflow": "sanity-tests", "run_id": "31167016127", "dispatched": "2026-08-07", "last_state": "cancelled", "nonterminal_reported": true, "reported": true}
