@@ -1,0 +1,1 @@
+{"signature":"Finalize dfb: dfb_offset == base_offset","file":"tt_metal/impl/dataflow_buffer/dataflow_buffer.cpp","subsystem":"Metal","severity_before":"info","severity_after":"debug","evidence":"96 occurrences in last 5000 lines of job 90453836399 (t3k_motif_tests, run 30411409841)","status":"open-pr","branch":"silencer/demote-finalize-dfb-info-log"}

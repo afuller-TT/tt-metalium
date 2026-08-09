@@ -1,1 +1,1 @@
-{"branch": "silencer/deprecated-int32-to-float-signbit", "pr": 1, "workflow": "sanity-tests", "run_id": "31167016127", "dispatched": "2026-08-07", "last_state": "cancelled", "nonterminal_reported": true, "reported": true}
+{"branch":"silencer/demote-finalize-dfb-info-log","workflow":"t3000-demo-tests","model":"motif","reported":false,"nonterminal_reported":false}

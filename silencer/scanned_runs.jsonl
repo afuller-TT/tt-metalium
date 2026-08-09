@@ -1,1 +1,5 @@
 {"run_id":"31167016127","note":"sanity-tests dispatch for PR #1, queued at time of check"}
+{"run_id":"31212756528","note":"pr-gate on main: all substantive jobs skipped (build-artifact, asan-build, ttnn-smoke-tests, runtime-examples, etc.); only meta jobs (find-changed-files, PR Gate Status) ran"}
+{"run_id":"31212756450","note":"sanity-tests on main: all substantive jobs skipped (build-artifact, ttnn-sanity-tests, ops-sanity-tests, t3000-apc-fast-tests, etc.); check-harbor cancelled"}
+{"run_id":"31124610441","note":"sanity-tests on main: same pattern, all substantive jobs skipped"}
+{"run_id":"30411409841","note":"t3000-demo-tests success run on tenstorrent/tt-metal main; found real logs; job 90453836399 (motif) had 96x info-level 'Finalize dfb' spam -> fixed"}
