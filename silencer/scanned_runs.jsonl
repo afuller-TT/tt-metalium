@@ -3,3 +3,4 @@
 {"run_id":"31212756450","note":"sanity-tests on main: all substantive jobs skipped (build-artifact, ttnn-sanity-tests, ops-sanity-tests, t3000-apc-fast-tests, etc.); check-harbor cancelled"}
 {"run_id":"31124610441","note":"sanity-tests on main: same pattern, all substantive jobs skipped"}
 {"run_id":"30411409841","note":"t3000-demo-tests success run on tenstorrent/tt-metal main; found real logs; job 90453836399 (motif) had 96x info-level 'Finalize dfb' spam -> fixed"}
+{"run_id":"31328201651","note":"t3000-unit-tests failure run on tenstorrent/tt-metal main; jobs t3k_ttnn_tests/t3k_dits_tests/t3k_tttv2_fast_unit_tests scanned; found -Wunused-but-set-variable reduce_dst_idx (reduce_h_neg.cpp) 6x -> fixed; writer_permute_interleaved_tiled_row_invariant.cpp unused vars noted for future run"}

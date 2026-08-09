@@ -1,1 +1,2 @@
-{"branch":"silencer/demote-finalize-dfb-info-log","workflow":"t3000-demo-tests","model":"motif","reported":false,"nonterminal_reported":false}
+{"branch": "silencer/demote-finalize-dfb-info-log", "workflow": "t3000-demo-tests", "model": "motif", "reported": false, "nonterminal_reported": true, "last_state": "queued"}
+{"branch":"silencer/unused-var-reduce-h-neg","workflow":"t3000-unit-tests","reported":false,"nonterminal_reported":false}
