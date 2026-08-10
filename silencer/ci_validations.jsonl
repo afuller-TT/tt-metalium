@@ -1,3 +1,4 @@
-{"branch": "silencer/demote-finalize-dfb-info-log", "workflow": "t3000-demo-tests", "model": "motif", "reported": false, "nonterminal_reported": true, "last_state": "queued"}
-{"branch": "silencer/unused-var-reduce-h-neg", "workflow": "t3000-unit-tests", "reported": false, "nonterminal_reported": false}
-{"pr": "silencer/unused-var-permute-writer", "workflow": "t3000-unit-tests", "dispatched": true, "reported": false, "nonterminal_reported": false}
+{"branch": "silencer/demote-finalize-dfb-info-log", "pr": 2, "workflow": "t3000-demo-tests", "model": "motif", "reported": true, "nonterminal_reported": true, "last_state": "completed-skipped-inconclusive"}
+{"branch": "silencer/unused-var-reduce-h-neg", "pr": 3, "workflow": "t3000-unit-tests", "reported": true, "nonterminal_reported": false, "last_state": "completed-skipped-inconclusive"}
+{"pr": 4, "branch": "silencer/unused-var-permute-writer", "workflow": "t3000-unit-tests", "run_id": "31377768938", "dispatched": true, "reported": false, "nonterminal_reported": true, "last_state": "queued"}
+{"branch": "silencer/pydantic-config-deprecation-warnings", "workflow": "sanity-tests", "dispatched": true, "reported": false, "nonterminal_reported": false}
