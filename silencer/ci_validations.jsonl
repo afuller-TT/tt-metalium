@@ -2,3 +2,4 @@
 {"branch": "silencer/unused-var-reduce-h-neg", "pr": 3, "workflow": "t3000-unit-tests", "reported": true, "nonterminal_reported": false, "last_state": "completed-skipped-inconclusive"}
 {"pr": 4, "branch": "silencer/unused-var-permute-writer", "workflow": "t3000-unit-tests", "run_id": "31377768938", "dispatched": true, "reported": true, "nonterminal_reported": true, "last_state": "completed-skipped-inconclusive"}
 {"branch": "silencer/pydantic-config-deprecation-warnings", "workflow": "sanity-tests", "dispatched": true, "reported": true, "nonterminal_reported": true, "pr": 5, "run_id": "31434279321", "last_state": "completed-skipped-inconclusive"}
+{"branch":"silencer/demote-device-delay-log-info","workflow":"blackhole-sanity-tests","dispatched":true,"reported":false,"nonterminal_reported":false,"last_state":"pending"}
