@@ -26,7 +26,13 @@ void kernel_main() {
     bcast_init<BCAST_LLKOP, BCAST_DIM>(icb0, icb1);
 #else
     compute_kernel_hw_startup(icb0, icb1, ocb);
+    // This test deliberately exercises the deprecated *_bcast_*_init_short shims (tracked in
+    // .github/deprecations.json, removal after September 15th, 2026) to cover the legacy API
+    // convention. Suppress the deprecation warning locally so it does not clobber CI logs.
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
     BCAST_OP_INIT(icb0, icb1);
+#pragma GCC diagnostic pop
 #endif
 
     dfb1.wait_front(onetile);
