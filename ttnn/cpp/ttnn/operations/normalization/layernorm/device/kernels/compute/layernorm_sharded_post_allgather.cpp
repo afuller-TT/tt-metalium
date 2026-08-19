@@ -40,13 +40,6 @@ void kernel_main() {
     const bool is_second_stage_reader = is_allgather_worker ? get_arg_val<uint32_t>(3) == 1 : false;
     const uint32_t num_distributed_blocks = is_allgather_worker ? get_arg_val<uint32_t>(4) : 0;
 
-    uint32_t num_blocks_reduce;
-    if (is_second_stage_reader) {
-        num_blocks_reduce = num_blocks_first_stage + num_blocks_second_stage - 1;
-    } else {
-        num_blocks_reduce = num_blocks_first_stage;
-    }
-
     bool enable_sqrt;
     if (use_two_stage_reduce and not is_second_stage_reader) {
         enable_sqrt = false;
